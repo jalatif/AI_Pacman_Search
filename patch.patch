@@ -1,0 +1,680 @@
+diff --git i/.idea/workspace.xml w/.idea/workspace.xml
+index e4fdd6d..a9e3cd3 100644
+--- i/.idea/workspace.xml
++++ w/.idea/workspace.xml
+@@ -32,8 +32,8 @@
+       <file leaf-file-name="EatAllDots.java" pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/src/EatAllDots.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="0.5929734" vertical-offset="18652" max-vertical-offset="19968">
+-              <caret line="506" column="34" selection-start-line="506" selection-start-column="34" selection-end-line="506" selection-end-column="34" />
++            <state vertical-scroll-proportion="0.28072727" vertical-offset="5986" max-vertical-offset="18432">
++              <caret line="187" column="61" selection-start-line="187" selection-start-column="61" selection-end-line="187" selection-end-column="61" />
+               <folding>
+                 <element signature="imports" expanded="true" />
+                 <element signature="e#5577#5584#0" expanded="true" />
+@@ -49,6 +49,16 @@
+           </provider>
+         </entry>
+       </file>
++      <file leaf-file-name="mediumSearch.txt" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/mediumSearch.txt">
++          <provider selected="true" editor-type-id="text-editor">
++            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
++              <caret line="4" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
+       <file leaf-file-name="AstarData.java" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/AstarData.java">
+           <provider selected="true" editor-type-id="text-editor">
+@@ -71,16 +81,6 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/Point.java">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1620">
+-              <caret line="19" column="13" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="13" />
+-              <folding />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/Node.java">
+           <provider selected="true" editor-type-id="text-editor">
+@@ -93,21 +93,11 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="smallSearch_2.txt" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/smallSearch_2.txt">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+-              <folding />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+       <file leaf-file-name="MyPriorityQueue.java" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/MyPriorityQueue.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="-92.347824" vertical-offset="0" max-vertical-offset="9756">
+-              <caret line="120" column="20" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="20" />
++            <state vertical-scroll-proportion="0.0" vertical-offset="6512" max-vertical-offset="9756">
++              <caret line="199" column="0" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+               <folding>
+                 <element signature="imports" expanded="true" />
+               </folding>
+@@ -115,21 +105,23 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="small_pacman.tsp" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/small_pacman.tsp">
++      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/State.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+-              <folding />
++            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3348">
++              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
++              <folding>
++                <element signature="imports" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="smallSearch.txt" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/smallSearch.txt">
++      <file leaf-file-name="PriorityQueueWrapper.java" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/src/PriorityQueueWrapper.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
++            <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="6012">
++              <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+               <folding />
+             </state>
+           </provider>
+@@ -138,19 +130,19 @@
+       <file leaf-file-name="TSPForPacman.java" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/TSPForPacman.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state vertical-scroll-proportion="-9.043478" vertical-offset="2932" max-vertical-offset="9540">
+-              <caret line="93" column="46" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
++            <state vertical-scroll-proportion="-14.086957" vertical-offset="3024" max-vertical-offset="10260">
++              <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="103" selection-end-column="33" />
+               <folding>
+                 <element signature="imports" expanded="true" />
+-                <element signature="e#2758#2759#0" expanded="true" />
+-                <element signature="e#2816#2817#0" expanded="true" />
+-                <element signature="e#4187#4195#0" expanded="true" />
+-                <element signature="e#5233#5239#0" expanded="true" />
+-                <element signature="e#5556#5564#0" expanded="true" />
+-                <element signature="e#5705#5713#0" expanded="true" />
+-                <element signature="e#7062#7069#0" expanded="true" />
+-                <element signature="e#7128#7135#0" expanded="true" />
+-                <element signature="e#8163#8171#0" expanded="true" />
++                <element signature="e#2756#2757#0" expanded="true" />
++                <element signature="e#2814#2815#0" expanded="true" />
++                <element signature="e#4452#4460#0" expanded="true" />
++                <element signature="e#5621#5627#0" expanded="true" />
++                <element signature="e#5944#5952#0" expanded="true" />
++                <element signature="e#6093#6101#0" expanded="true" />
++                <element signature="e#7450#7457#0" expanded="true" />
++                <element signature="e#7530#7537#0" expanded="true" />
++                <element signature="e#8576#8584#0" expanded="true" />
+               </folding>
+             </state>
+           </provider>
+@@ -171,16 +163,16 @@
+         <option value="$PROJECT_DIR$/src/MazeSearch.java" />
+         <option value="$PROJECT_DIR$/src/PriorityQueueWrapper.java" />
+         <option value="$PROJECT_DIR$/smallSearch.txt" />
+-        <option value="$PROJECT_DIR$/smallSearch_2.txt" />
+-        <option value="$PROJECT_DIR$/src/State.java" />
+         <option value="$PROJECT_DIR$/src/Edge.java" />
+         <option value="$PROJECT_DIR$/src/MyPriorityQueue.java" />
+         <option value="$PROJECT_DIR$/src/TSP.java" />
+         <option value="$PROJECT_DIR$/small_pacman.tsp" />
+         <option value="$PROJECT_DIR$/src/Node.java" />
+         <option value="$PROJECT_DIR$/src/Point.java" />
+-        <option value="$PROJECT_DIR$/src/TSPForPacman.java" />
+         <option value="$PROJECT_DIR$/src/AstarData.java" />
++        <option value="$PROJECT_DIR$/smallSearch_2.txt" />
++        <option value="$PROJECT_DIR$/src/TSPForPacman.java" />
++        <option value="$PROJECT_DIR$/src/State.java" />
+         <option value="$PROJECT_DIR$/src/EatAllDots.java" />
+       </list>
+     </option>
+@@ -314,7 +306,13 @@
+       <option name="PASS_PARENT_ENVS" value="true" />
+       <module name="Assignment1" />
+       <envs />
++      <RunnerSettings RunnerId="Debug">
++        <option name="DEBUG_PORT" value="" />
++        <option name="TRANSPORT" value="0" />
++        <option name="LOCAL" value="true" />
++      </RunnerSettings>
+       <RunnerSettings RunnerId="Run" />
++      <ConfigurationWrapper RunnerId="Debug" />
+       <ConfigurationWrapper RunnerId="Run" />
+       <method />
+     </configuration>
+@@ -732,12 +730,12 @@
+       <workItem from="1424493749558" duration="21109000" />
+       <workItem from="1424559870449" duration="21333000" />
+       <workItem from="1424585153123" duration="7974000" />
+-      <workItem from="1424633997701" duration="13202000" />
++      <workItem from="1424633997701" duration="17462000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="125917000" />
++    <option name="totallyTimeSpent" value="130177000" />
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="-8" y="-2" width="3856" height="2110" extended-state="6" />
+@@ -747,11 +745,11 @@
+       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978904" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18196203" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964134" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+@@ -764,7 +762,7 @@
+       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17091972" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25105485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25105485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+@@ -819,7 +817,21 @@
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+-      <option name="time" value="6" />
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/TSPForPacman.java</url>
++          <line>112</line>
++          <properties />
++          <option name="timeStamp" value="6" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/TSPForPacman.java</url>
++          <line>113</line>
++          <properties />
++          <option name="timeStamp" value="7" />
++        </line-breakpoint>
++      </breakpoints>
++      <option name="time" value="8" />
+     </breakpoint-manager>
+     <watches-manager />
+   </component>
+@@ -828,16 +840,6 @@
+     <option name="FILTER_TARGETS" value="false" />
+   </component>
+   <component name="editorHistoryManager">
+-    <entry file="file://$PROJECT_DIR$/src/Node.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="1548">
+-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/src/Point.java">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="267" max-vertical-offset="1656">
+@@ -1077,13 +1079,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/mediumSearch.txt">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/smallMaze.txt">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1389">
+@@ -1107,14 +1102,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/PriorityQueueWrapper.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="6012">
+-          <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/src/smallMaze.txt">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1201">
+@@ -1157,16 +1144,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/State.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="-11.73913" vertical-offset="972" max-vertical-offset="3240">
+-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/trickySearch.txt">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.18327273" vertical-offset="0" max-vertical-offset="1375">
+@@ -1175,42 +1152,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/MyPriorityQueue.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="-92.347824" vertical-offset="0" max-vertical-offset="9756">
+-          <caret line="120" column="20" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="20" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/smallSearch_2.txt">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/src/Node.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="3384">
+-          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/small_pacman.tsp">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1375">
+-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/List.java">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.3330909" vertical-offset="2674" max-vertical-offset="25740">
+@@ -1219,14 +1160,6 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/DisjointSet.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4392">
+-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+-          <folding />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/src/Point.java">
+       <provider selected="true" editor-type-id="text-editor">
+         <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1620">
+@@ -1245,22 +1178,35 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/TSPForPacman.java">
++    <entry file="file://$PROJECT_DIR$/smallSearch.txt">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="-9.043478" vertical-offset="2932" max-vertical-offset="9540">
+-          <caret line="93" column="46" selection-start-line="93" selection-start-column="46" selection-end-line="93" selection-end-column="46" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-            <element signature="e#2758#2759#0" expanded="true" />
+-            <element signature="e#2816#2817#0" expanded="true" />
+-            <element signature="e#4187#4195#0" expanded="true" />
+-            <element signature="e#5233#5239#0" expanded="true" />
+-            <element signature="e#5556#5564#0" expanded="true" />
+-            <element signature="e#5705#5713#0" expanded="true" />
+-            <element signature="e#7062#7069#0" expanded="true" />
+-            <element signature="e#7128#7135#0" expanded="true" />
+-            <element signature="e#8163#8171#0" expanded="true" />
+-          </folding>
++        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
++          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/smallSearch_2.txt">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
++          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/small_pacman.tsp">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1375">
++          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/DisjointSet.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4392">
++          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -1274,18 +1220,85 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/smallSearch.txt">
++    <entry file="file://$PROJECT_DIR$/src/Node.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
++        <state vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="3384">
++          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/HashMap.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0" vertical-offset="19544" max-vertical-offset="83376">
++          <caret line="594" column="0" selection-start-line="594" selection-start-column="0" selection-end-line="594" selection-end-column="0" />
++          <folding>
++            <element signature="e#23651#23652#0" expanded="false" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/MyPriorityQueue.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0" vertical-offset="6418" max-vertical-offset="9756">
++          <caret line="199" column="0" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/PriorityQueueWrapper.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0" vertical-offset="3128" max-vertical-offset="6012">
++          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
++    <entry file="file://$PROJECT_DIR$/mediumSearch.txt">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
++          <caret line="4" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/TSPForPacman.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="-14.086957" vertical-offset="3024" max-vertical-offset="10260">
++          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="103" selection-end-column="33" />
++          <folding>
++            <element signature="imports" expanded="true" />
++            <element signature="e#2756#2757#0" expanded="true" />
++            <element signature="e#2814#2815#0" expanded="true" />
++            <element signature="e#4452#4460#0" expanded="true" />
++            <element signature="e#5621#5627#0" expanded="true" />
++            <element signature="e#5944#5952#0" expanded="true" />
++            <element signature="e#6093#6101#0" expanded="true" />
++            <element signature="e#7450#7457#0" expanded="true" />
++            <element signature="e#7530#7537#0" expanded="true" />
++            <element signature="e#8576#8584#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/State.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3348">
++          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/src/EatAllDots.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state vertical-scroll-proportion="0.5929734" vertical-offset="18652" max-vertical-offset="19968">
+-          <caret line="506" column="34" selection-start-line="506" selection-start-column="34" selection-end-line="506" selection-end-column="34" />
++        <state vertical-scroll-proportion="0.28072727" vertical-offset="5986" max-vertical-offset="18432">
++          <caret line="187" column="61" selection-start-line="187" selection-start-column="61" selection-end-line="187" selection-end-column="61" />
+           <folding>
+             <element signature="imports" expanded="true" />
+             <element signature="e#5577#5584#0" expanded="true" />
+diff --git i/out/production/Assignment1/EatAllDots.class w/out/production/Assignment1/EatAllDots.class
+index a85868d..f9e93d3 100644
+Binary files i/out/production/Assignment1/EatAllDots.class and w/out/production/Assignment1/EatAllDots.class differ
+diff --git i/out/production/Assignment1/State.class w/out/production/Assignment1/State.class
+index 59ed358..02c3822 100644
+Binary files i/out/production/Assignment1/State.class and w/out/production/Assignment1/State.class differ
+diff --git i/out/production/Assignment1/TSPForPacman$State.class w/out/production/Assignment1/TSPForPacman$State.class
+index 32b5b02..b6f0a7a 100644
+Binary files i/out/production/Assignment1/TSPForPacman$State.class and w/out/production/Assignment1/TSPForPacman$State.class differ
+diff --git i/out/production/Assignment1/TSPForPacman.class w/out/production/Assignment1/TSPForPacman.class
+index 55cfc2d..b86946b 100644
+Binary files i/out/production/Assignment1/TSPForPacman.class and w/out/production/Assignment1/TSPForPacman.class differ
+diff --git i/smallSearch_2.txt w/smallSearch_2.txt
+index a16b16c..e64d5f0 100644
+--- i/smallSearch_2.txt
++++ w/smallSearch_2.txt
+@@ -1,5 +1,5 @@
+ %%%%%%%%%%%%%%%%%%%%
+-%               P  %
+-% %% %% %% %% %% % %
+-% %% %.          %.%
++%.              P .%
++%.%%.%%.%%.%%.%% %.%
++% %% %.          % %
+ %%%%%%%%%%%%%%%%%%%%
+\ No newline at end of file
+diff --git i/src/EatAllDots.java w/src/EatAllDots.java
+index ce3be03..61e4811 100644
+--- i/src/EatAllDots.java
++++ w/src/EatAllDots.java
+@@ -255,7 +255,7 @@ public class EatAllDots {
+         
+         ArrayList<Point> final_path = correctPath(tsp_path, path_costs);
+ 
+-        counter = 48;
++        counter = 47;
+         for (int i = 0; i < final_path.size(); i++) {
+             Point p = final_path.get(i);
+             if (counter > 57 && counter < 65)
+@@ -504,7 +504,7 @@ public class EatAllDots {
+     }
+     
+     public static void main(String[] args) throws CloneNotSupportedException, IOException {
+-        String maze_file = "mediumSearch.txt";// "smallSearch.txt";
++        String maze_file = "smallSearch.txt";// "smallSearch.txt";
+         if (args.length >= 1)
+             maze_file = args[0];
+ 
+diff --git i/src/State.java w/src/State.java
+index 148e993..db36a52 100644
+--- i/src/State.java
++++ w/src/State.java
+@@ -9,7 +9,7 @@ import java.util.Stack;
+ public class State<T> implements Comparable<State<T>> {
+     T item;
+     State<T> parent;
+-    int compared_cost;
++    Integer compared_cost;
+     int current_cost;
+     int heuristic_cost;
+     int num_goals_found;
+@@ -43,6 +43,9 @@ public class State<T> implements Comparable<State<T>> {
+     @Override
+     public boolean equals(Object obj) {
+         State<T> state2 = (State<T>) obj;
++        if (this.goals_done.size() != state2.goals_done.size()) return false;
++        if (!this.item.equals(state2.item) || !this.compared_cost.equals(state2.compared_cost))
++            return false;
+         return this.item.equals(state2.item);// && (parent == node2.parent);
+     }
+ 
+diff --git i/src/TSPForPacman.java w/src/TSPForPacman.java
+index 2421c67..7c57e89 100644
+--- i/src/TSPForPacman.java
++++ w/src/TSPForPacman.java
+@@ -74,14 +74,14 @@ public class TSPForPacman {
+         Integer edge_cost;
+         Integer heuristic_cost;
+         Integer cost;
+-        List<String> parent;
++        Set<String> parent;
+         //        State(String s, String p, int i){
+ //            city = s;
+ //            parent = new LinkedList<String>();
+ //            parent.add(p);
+ //            cost = i;
+ //        }
+-        State(String s, List<String> p, int i){
++        State(String s, Set<String> p, int i){
+             city = s;
+             parent = p;
+             edge_cost = i;
+@@ -96,18 +96,24 @@ public class TSPForPacman {
+ 
+         @Override
+         public boolean equals(Object obj) {
+-            State other = (State) obj;
+-            if (other.parent.size() != this.parent.size()) return false;
+-
+-            if (!this.city.equals(other.city) || this.cost == other.cost)
+-                return false;
+-            Iterator iterator1 = parent.iterator();
+-            Iterator iterator2 = other.parent.iterator();
+-            while(iterator1.hasNext()) {
+-                if (!iterator1.next().equals(iterator2.next()))
++            try {
++                State other = (State) obj;
++                if (other.parent.size() != this.parent.size()) return false;
++    
++                if (!this.city.equals(other.city) || !this.cost.equals(other.cost))
+                     return false;
++                if (!this.parent.containsAll(other.parent)) return false;
++    //            Iterator iterator1 = parent.iterator();
++    //            Iterator iterator2 = other.parent.iterator();
++    //            while(iterator1.hasNext()) {
++    //                if (!iterator1.next().equals(iterator2.next()))
++    //                    return false;
++    //            }
++                return true;
++            } catch (ClassCastException cce) {
++                ;
++                return false;
+             }
+-            return true;
+         }
+ 
+         @Override
+@@ -140,7 +146,12 @@ public class TSPForPacman {
+                 goals.add(city);
+         }
+         String start = state.city;
+-        if (state.parent != null) start = state.parent.get(0);
++        
++        if (state.parent != null) {
++            Iterator<String> iterator = state.parent.iterator();
++            start = iterator.next();
++            iterator = null;
++        }
+ 
+         int closest_dist_current = Integer.MAX_VALUE;
+         int closest_dist_start = Integer.MAX_VALUE;
+@@ -201,7 +212,7 @@ public class TSPForPacman {
+         String start = cities[0];
+         HashSet<State> explored_state = new HashSet<State>();
+ 
+-        PriorityQueue<State> queue = new PriorityQueue<State>();
++        PriorityQueueWrapper<State> queue = new PriorityQueueWrapper<State>("Priority");
+         State start_state = new State(start, null, 0);
+         start_state.heuristic_cost = getHeuristic(start_state);
+         start_state.cost = start_state.heuristic_cost + start_state.edge_cost;
+@@ -219,14 +230,14 @@ public class TSPForPacman {
+             if (explored_state.contains(current)) continue;
+             explored_state.add(current);
+ 
+-            List<String> parents = current.parent;
++            Set<String> parents = current.parent;
+             for (String city : cities) {
+                 //if (explored_city.contains(city)) continue;
+                 if (city.equals(current.city)) continue;
+                 if (parents != null && parents.contains(city)) {
+                         continue;
+                 }
+-                List<String> new_parents = new LinkedList<String>();
++                Set<String> new_parents = new LinkedHashSet<String>();
+                 if (parents != null)
+                     for (String parent : parents)
+                         new_parents.add(parent);
+@@ -236,7 +247,16 @@ public class TSPForPacman {
+                 new_state.heuristic_cost = getHeuristic(new_state);
+ 
+                 new_state.cost = new_state.heuristic_cost + new_state.edge_cost;
+-                queue.add(new_state);
++                //queue.add(new_state);
++
++                if (queue.contains(new_state)) {
++                    if (queue.getContent(new_state).cost > new_state.cost) {
++                        queue.remove(new_state);
++                        queue.add(new_state);
++                    }
++                } else {
++                    queue.add(new_state);
++                }
+             }
+             long t2 = System.currentTimeMillis();
+             //System.out.println("Time taken for each iteration " + (t2 - t1));
